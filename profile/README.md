@@ -26,7 +26,7 @@ gem "solrengine"
 
 ```bash
 rails generate solrengine:install
-rails db:migrate
+rails db:prepare
 bin/dev
 ```
 
