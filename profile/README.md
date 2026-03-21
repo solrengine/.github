@@ -40,13 +40,16 @@ bin/dev
 | [solrengine-tokens](https://github.com/solrengine/tokens) | Token metadata + portfolio via Jupiter |
 | [solrengine-transactions](https://github.com/solrengine/transactions) | SOL transfers + confirmation tracking |
 | [solrengine-realtime](https://github.com/solrengine/realtime) | WebSocket monitoring + Turbo Streams |
+| [solrengine-programs](https://github.com/solrengine/programs) | Anchor IDL parsing, Borsh serialization, program interaction |
 
 Each gem works independently or together via `solrengine`.
 
 ## Showcase
 
-[**WalletTrain**](https://github.com/solrengine/wallet-train) — a full-featured Solana wallet built with SolRengine. Wallet auth, token portfolio, send SOL, real-time updates, landing page with on-chain donations.
+[**WalletTrain**](https://github.com/solrengine/wallet-train) — Solana wallet with token portfolio, SOL transfers, and real-time updates.
+
+[**PiggyBank**](https://github.com/solrengine/piggybank) — Time-locked SOL savings using a custom Anchor program via solrengine-programs.
 
 ---
 
-A [Moviendome](https://moviendo.me) project.
+A [moviendo.me](https://moviendo.me) project.
