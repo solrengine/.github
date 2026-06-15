@@ -41,8 +41,12 @@ bin/dev
 | [solrengine-transactions](https://github.com/solrengine/transactions) | SOL transfers + confirmation tracking |
 | [solrengine-realtime](https://github.com/solrengine/realtime) | WebSocket monitoring + Turbo Streams |
 | [solrengine-programs](https://github.com/solrengine/programs) | Anchor IDL parsing, Borsh serialization, program interaction |
+| [solana-sdp](https://github.com/solrengine/solana-sdp) | Custodial path — Ruby SDK for the Solana Developer Platform (wallets + payments) |
+| [solrengine-sdp](https://github.com/solrengine/sdp) | Custodial path — Rails engine: Wallet-per-User provisioning, tracked transfers, live balances |
 
 Each gem works independently or together via `solrengine`.
+
+The first seven gems cover the **connect-your-wallet** path; the two SDP gems add a **Wallet-per-User** custodial path on the [Solana Developer Platform](https://github.com/solana-foundation/solana-developer-platform). Both are first-class and mix in one app.
 
 ## Showcase
 
